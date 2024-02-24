@@ -42,9 +42,9 @@ class MainActivity : ComponentActivity() {
                         updateLoopButtonUI()
                 }
 
-                mediaPlayer = MediaPlayer.create(this, R.raw.all_the_small_things)
+                mediaPlayer = MediaPlayer.create(this, R.raw."Replace With Own song file")
 
-                val tempMp3File = getTempFile(this, R.raw.all_the_small_things)
+                val tempMp3File = getTempFile(this, R.raw."Replace With Own Song file")
                 val albumArtImageView = findViewById<ImageView>(R.id.albumArtImageView)
                 val albumArtBitmap = loadAlbumArt(tempMp3File.absolutePath)
                 if (albumArtBitmap != null) {
@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
                 }
 
                 val songNameTextView = findViewById<TextView>(R.id.songNameTextView)
-                val songName = "All the Small Things" // Get the actual song name dynamically
+                val songName = "" // Get the actual song name dynamically
                 songNameTextView.text = songName
 
 
