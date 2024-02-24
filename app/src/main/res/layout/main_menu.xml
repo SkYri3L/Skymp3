@@ -1,0 +1,106 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!-- Song Name -->
+    <TableRow>
+        <TextView
+            android:id="@+id/songNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Song Name Placeholder"
+            android:gravity="center"
+            android:padding="16dp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <!-- Album Art ImageView -->
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/albumArtImageView"
+            android:layout_width="399dp"
+            android:layout_height="397dp"
+            android:baselineAligned="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_album_art"
+            android:contentDescription="default_album_art"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <!-- Play and Pause buttons -->
+    <TableRow>
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/empty"
+            android:onClick="onPlayButtonClick"
+            android:src="@android:drawable/ic_media_play"
+            tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/empty"
+            android:onClick="onPauseButtonClick"
+            android:src="@android:drawable/ic_media_pause"
+            tools:ignore="ImageContrastCheck" />
+    </TableRow>
+
+    <!-- Loop button -->
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/loopButton"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/loop_button"
+            tools:ignore="ContentDescription" />
+    </TableRow>
+
+
+    <!-- SeekBar -->
+    <TableRow android:layout_width="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="123dp">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                style="@style/CustomSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <TextView
+                android:id="@+id/endTimerTextView"
+                android:layout_width="81dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="16dp"
+                android:text="00:00"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar"
+                tools:ignore="HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="159dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </TableRow>
+</TableLayout>

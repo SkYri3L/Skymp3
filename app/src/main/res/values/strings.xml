@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">skymp3</string>
+    <string name="empty">*Unused*</string>
+    <string name="loop_button">loop_button</string>
+</resources>

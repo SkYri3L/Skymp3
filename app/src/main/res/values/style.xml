@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomSeekBar" parent="Widget.AppCompat.SeekBar">
+        <!-- Customize the thickness of the SeekBar line -->
+        <item name="android:progressDrawable">@drawable/seekbar_custom_drawable</item>
+        <!-- Remove the thumb (dot) from the SeekBar -->
+        <item name="android:thumb">@null</item>
+    </style>
+
+</resources>

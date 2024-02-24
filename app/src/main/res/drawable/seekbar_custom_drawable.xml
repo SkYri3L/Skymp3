@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the background of the SeekBar (inactive portion) -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#A0A0A0" />
+        </shape>
+    </item>
+    <!-- Define the progress of the SeekBar (active portion) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <!-- Customize the thickness of the SeekBar line -->
+                <stroke
+                    android:color="#00FF00"
+                    android:width="8dp" /> <!-- Adjust the thickness as needed -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

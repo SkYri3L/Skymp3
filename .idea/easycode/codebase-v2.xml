@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/drawable/ic_launcher_foreground.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/layout/main_menu.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/mipmap-anydpi/ic_launcher.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/values/colors.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/values/strings.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/values/themes.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/xml/backup_rules.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/res/xml/data_extraction_rules.xml;/Users/skyri3l/AndroidStudioProjects/skymp3/app/src/main/AndroidManifest.xml" />
+    <option name="forceFullIndex" value="false" />
+    <option name="fileSummaryMaps" value="{&quot;/Users/skyri3l/AndroidStudioProjects/skymp3&quot;:&quot;{}&quot;}" />
+  </component>
+</project>
