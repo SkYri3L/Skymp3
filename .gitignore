@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/src/main/res/raw/
+.idea
+/app/src/androidTest/
+/app/src/test
+/app/src/main/res/raw
